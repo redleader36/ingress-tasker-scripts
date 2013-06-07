@@ -1,0 +1,98 @@
+<TaskerData sr="" dvi="1" tv="1.3.3u2m">
+	<Profile sr="prof16" ve="2">
+		<cdate>1363978792197</cdate>
+		<edate>1364018197840</edate>
+		<id>16</id>
+		<mid0>17</mid0>
+		<nme>Ingress Menu</nme>
+		<Event sr="con0" ve="2">
+			<code>2000</code>
+			<pri>0</pri>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg></appPkg>
+				<label>*</label>
+			</App>
+			<Str sr="arg1" ve="3">Ingress Shortcuts</Str>
+		</Event>
+	</Profile>
+	<Task sr="task17">
+		<cdate>1363978808939</cdate>
+		<edate>1364019542252</edate>
+		<id>17</id>
+		<nme>Ingress Shortcuts</nme>
+		<Action sr="act0" ve="3">
+			<code>551</code>
+			<Str sr="arg0" ve="3">Ingress Shortcuts</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">IconAndTextMenu</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="1"/>
+			<ListElementItem sr="item0">
+				<label>IITC mobile</label>
+				<Action sr="action" ve="3">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.cradle.iitc_mobile.IITC_Mobile</appClass>
+						<appPkg>com.cradle.iitc_mobile</appPkg>
+						<label>IITC mobile</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.cradle.iitc_mobile.IITC_Mobile</cls>
+					<pkg>com.cradle.iitc_mobile</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Ingress Portal Calc</label>
+				<Action sr="action" ve="3">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.gombosdev.ingressportalcalc.Activity_Start</appClass>
+						<appPkg>com.gombosdev.ingressportalcalc</appPkg>
+						<label>Ingress Portal Calc</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.gombosdev.ingressportalcalc.Activity_Start</cls>
+					<pkg>com.gombosdev.ingressportalcalc</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Drop Items</label>
+				<Action sr="action" ve="3">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Drop Ingress Items</Str>
+					<Int sr="arg1" val="0"/>
+					<Int sr="arg2" val="5"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>icon_trash_small</nme>
+					<pkg>net.dinglisch.android.taskerm</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>Acquire Items</label>
+				<Action sr="action" ve="3">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Acquire Ingress Items</Str>
+					<Int sr="arg1" val="0"/>
+					<Int sr="arg2" val="5"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<icn>2130837561</icn>
+				</Img>
+			</ListElementItem>
+		</Action>
+	</Task>
+</TaskerData>

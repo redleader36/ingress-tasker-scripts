@@ -1,0 +1,29 @@
+<TaskerData sr="" dvi="1" tv="1.3.3u2m">
+	<Task sr="task10">
+		<cdate>1364019073557</cdate>
+		<edate>1364019288658</edate>
+		<id>10</id>
+		<nme>Acquire Ingress Items</nme>
+		<Action sr="act0" ve="3">
+			<code>595</code>
+			<Str sr="arg0" ve="3">Items</Str>
+			<Str sr="arg1" ve="3">%Items</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3">10</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>123</code>
+			<lhs>%Items</lhs>
+			<op>3</op>
+			<rhs>2001</rhs>
+			<Str sr="arg0" ve="3">x=0 ; while [ $x -lt %Items ]; do input tap x1 y1; input tap x2 y2; (( x++ )); done</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>
