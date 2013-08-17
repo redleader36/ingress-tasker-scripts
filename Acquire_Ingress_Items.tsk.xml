@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="1.3.3u2m">
+<TaskerData sr="" dvi="1" tv="4.1u3m">
 	<Task sr="task10">
 		<cdate>1364019073557</cdate>
-		<edate>1364019288658</edate>
+		<edate>1372459688153</edate>
 		<id>10</id>
 		<nme>Acquire Ingress Items</nme>
 		<Action sr="act0" ve="3">
@@ -20,10 +20,12 @@
 			<lhs>%Items</lhs>
 			<op>3</op>
 			<rhs>2001</rhs>
-			<Str sr="arg0" ve="3">x=0 ; while [ $x -lt %Items ]; do input tap x1 y1; input tap x2 y2; (( x++ )); done</Str>
+			<Str sr="arg0" ve="3">x=0 ; while [ $x -lt %Items ]; do input tap %INGRESS_GROUND_X %INGRESS_GROUND_Y; input tap %INGRESS_ACQUIRE_X %INGRESS_ACQUIRE_Y; sleep %INGRESS_ACQUIRE_DELAY; (( x++ )); done</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
 		</Action>
 	</Task>
 </TaskerData>
