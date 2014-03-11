@@ -1,0 +1,724 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<dmetric>720.0,1184.0</dmetric>
+	<Profile sr="prof36" ve="2">
+		<cdate>1376698343712</cdate>
+		<clp>true</clp>
+		<edate>1372120574433</edate>
+		<id>36</id>
+		<mid0>29</mid0>
+		<nme>Ingress Menu</nme>
+		<Event sr="con0" ve="2">
+			<code>2000</code>
+			<pri>0</pri>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg></appPkg>
+				<label>*</label>
+			</App>
+			<Str sr="arg1" ve="3">Ingress Shortcuts</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof37" ve="2">
+		<cdate>1376698343714</cdate>
+		<clp>true</clp>
+		<edate>1377185559068</edate>
+		<id>37</id>
+		<mid0>34</mid0>
+		<mid1>35</mid1>
+		<nme>Ingress</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.nianticproject.ingress.NemesisActivity</cls0>
+			<label0>Ingress</label0>
+			<pkg0>com.nianticproject.ingress</pkg0>
+		</App>
+	</Profile>
+	<Project sr="proj0">
+		<cdate>1376697843456</cdate>
+		<name>Ingress</name>
+		<pids>37,36</pids>
+		<scenes>Variable Query,IconAndTextMenu</scenes>
+		<tids>30,34,33,31,32,35,29</tids>
+	</Project>
+	<Scene sr="sceneIconAndTextMenu">
+		<cdate>1363972046177</cdate>
+		<edate>1372459129498</edate>
+		<gridSize>11</gridSize>
+		<heightLand>230</heightLand>
+		<heightPort>221</heightPort>
+		<nme>IconAndTextMenu</nme>
+		<widthLand>446</widthLand>
+		<widthPort>455</widthPort>
+		<ImageElement sr="elements0">
+			<flags>7</flags>
+			<geom>0,0,455,221,0,0,446,230</geom>
+			<Str sr="arg0" ve="3">Background</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF000000</Str>
+				<Str sr="arg3" ve="3">#F5555599</Str>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF4E4E4E</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<ListElement sr="elements1">
+			<flags>5</flags>
+			<geom>8,3,437,216,5,59,441,153</geom>
+			<Str sr="arg0" ve="3">Menu</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="1"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1363972046177</cdate>
+					<edate>1363972046177</edate>
+					<gridSize>10</gridSize>
+					<heightLand>-1</heightLand>
+					<heightPort>67</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>-1</widthLand>
+					<widthPort>477</widthPort>
+					<ImageElement sr="elements0">
+						<flags>5</flags>
+						<geom>359,5,68,61,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2"/>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="2">
+						<flags>5</flags>
+						<geom>44,6,310,58,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="18"/>
+						<Int sr="arg3"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Int sr="arg5" val="3"/>
+						<Int sr="arg6"/>
+						<Int sr="arg7"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="2">
+						<flags>1</flags>
+						<geom>7,6,30,61,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="18"/>
+						<Int sr="arg3"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Int sr="arg5" val="3"/>
+						<Int sr="arg6"/>
+						<Int sr="arg7"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#FF000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF000000</Str>
+				<Str sr="arg3" ve="3">#77333333</Str>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF454545</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<ListElementItem sr="item0">
+				<label>Example</label>
+			</ListElementItem>
+		</ListElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">IconAndTextMenu</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneVariable Query">
+		<cdate>1372459688163</cdate>
+		<edate>1372460280363</edate>
+		<heightLand>285</heightLand>
+		<heightPort>285</heightPort>
+		<nme>Variable Query</nme>
+		<widthLand>330</widthLand>
+		<widthPort>330</widthPort>
+		<TextElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>6,0,324,72,6,0,324,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3"/>
+			<Str sr="arg4" ve="3">#FF0099CC</Str>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6"/>
+			<Int sr="arg7"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>5</flags>
+			<geom>0,72,330,3,0,72,330,3</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3">#77333333</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements2">
+			<flags>13</flags>
+			<geom>14,116,302,72,14,116,302,72</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6"/>
+			<Int sr="arg7" val="1000"/>
+		</EditTextElement>
+		<RectElement sr="elements3">
+			<flags>5</flags>
+			<geom>0,225,330,3,0,225,330,3</geom>
+			<Str sr="arg0" ve="3">Footer</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3">#77333333</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements4">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>52,225,60,60,52,225,60,60</geom>
+			<Str sr="arg0" ve="3">Accept</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_navigation_accept</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<ImageElement sr="elements5">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>218,225,60,60,218,225,60,60</geom>
+			<Str sr="arg0" ve="3">Cancel</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_content_remove</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Variable Query</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task29">
+		<cdate>1363978808939</cdate>
+		<edate>1389915767754</edate>
+		<id>29</id>
+		<nme>Ingress Shortcuts</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="3">
+			<code>551</code>
+			<Str sr="arg0" ve="3">Ingress Shortcuts</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">IconAndTextMenu</Str>
+			<Int sr="arg3" val="600"/>
+			<Int sr="arg4" val="1"/>
+			<ListElementItem sr="item0">
+				<label>IITC mobile</label>
+				<Action sr="action" ve="3">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.cradle.iitc_mobile.IITC_Mobile</appClass>
+						<appPkg>com.cradle.iitc_mobile</appPkg>
+						<label>IITC mobile</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.cradle.iitc_mobile.IITC_Mobile</cls>
+					<pkg>com.cradle.iitc_mobile</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Drop Items</label>
+				<Action sr="action" ve="3">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Drop Ingress Items</Str>
+					<Int sr="arg1" val="0"/>
+					<Int sr="arg2" val="5"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_export</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Acquire Items</label>
+				<Action sr="action" ve="3">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Acquire Ingress Items</Str>
+					<Int sr="arg1" val="0"/>
+					<Int sr="arg2" val="5"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_import</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>Recycle Ingress Items</label>
+				<Action sr="action" ve="3">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Recycle Ingress Items</Str>
+					<Int sr="arg1" val="0"/>
+					<Int sr="arg2" val="5"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_av_replay</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item4">
+				<label>Script Settings</label>
+				<Action sr="action" ve="3">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Ingress Script Settings</Str>
+					<Int sr="arg1" val="0"/>
+					<Int sr="arg2" val="5"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_overflow</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+	</Task>
+	<Task sr="task30">
+		<cdate>1363992954008</cdate>
+		<edate>1389916331452</edate>
+		<id>30</id>
+		<nme>Drop Ingress Items</nme>
+		<Action sr="act0" ve="3">
+			<code>595</code>
+			<Str sr="arg0" ve="3">Items</Str>
+			<Str sr="arg1" ve="3">%Items</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3">10</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>123</code>
+			<lhs>%Items</lhs>
+			<op>3</op>
+			<rhs>2001</rhs>
+			<Str sr="arg0" ve="3">x=0 ; while [ $x -lt %Items ]; do input tap %INGRESS_OPS_BUTTON_X %INGRESS_OPS_BUTTON_Y; input tap %INGRESS_ITEM_X %INGRESS_ITEM_Y; input tap %INGRESS_DROP_BUTTON_X %INGRESS_DROP_BUTTON_Y; sleep %INGRESS_DROP_DELAY; (( x++ )); done</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task31">
+		<cdate>1364019073557</cdate>
+		<edate>1389915713606</edate>
+		<id>31</id>
+		<nme>Acquire Ingress Items</nme>
+		<Action sr="act0" ve="3">
+			<code>595</code>
+			<Str sr="arg0" ve="3">Items</Str>
+			<Str sr="arg1" ve="3">%Items</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3">10</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>123</code>
+			<lhs>%Items</lhs>
+			<op>3</op>
+			<rhs>2001</rhs>
+			<Str sr="arg0" ve="3">x=0 ; while [ $x -lt %Items ]; do input tap %INGRESS_GROUND_X %INGRESS_GROUND_Y; input tap %INGRESS_ACQUIRE_X %INGRESS_ACQUIRE_Y; sleep %INGRESS_ACQUIRE_DELAY; (( x++ )); done</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task32">
+		<cdate>1363992954008</cdate>
+		<edate>1389915717038</edate>
+		<id>32</id>
+		<nme>Recycle Ingress Items</nme>
+		<Action sr="act0" ve="3">
+			<code>595</code>
+			<Str sr="arg0" ve="3">Items</Str>
+			<Str sr="arg1" ve="3">%Items</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3">10</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>123</code>
+			<lhs>%Items</lhs>
+			<op>3</op>
+			<rhs>2001</rhs>
+			<Str sr="arg0" ve="3">x=0 ; input tap %INGRESS_OPS_BUTTON_X %INGRESS_OPS_BUTTON_Y; while [ $x -lt %Items ]; do input tap %INGRESS_ITEM_X %INGRESS_ITEM_Y; input tap %INGRESS_RECYCLE_X %INGRESS_RECYCLE_Y; sleep %INGRESS_RECYCLE_DELAY; (( x++ )); done</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task33">
+		<cdate>1372459309510</cdate>
+		<edate>1373574004132</edate>
+		<id>33</id>
+		<nme>Ingress Script Settings</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="3">
+			<code>551</code>
+			<label>Settings for scripts</label>
+			<Str sr="arg0" ve="3">Ingress Script Settings</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">IconAndTextMenu</Str>
+			<Int sr="arg3" val="600"/>
+			<Int sr="arg4" val="1"/>
+			<ListElementItem sr="item0">
+				<label>Ops Button X</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Ops Button</Str>
+					<Str sr="arg1" ve="3">%INGRESS_OPS_BUTTON_X</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_OPS_BUTTON_X</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Ops Button Y</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Ops Button Y</Str>
+					<Str sr="arg1" ve="3">%INGRESS_OPS_BUTTON_Y</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_OPS_BUTTON_Y</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item10">
+				<label>Recycle Button X</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Recycle X</Str>
+					<Str sr="arg1" ve="3">%INGRESS_RECYCLE_X</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_RECYCLE_X</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item11">
+				<label>Recycle Button Y</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Recycle Y</Str>
+					<Str sr="arg1" ve="3">%INGRESS_RECYCLE_Y</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_RECYCLE_Y</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item12">
+				<label>Recycle Delay</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Recycle Delay (Seconds)</Str>
+					<Str sr="arg1" ve="3">%INGRESS_RECYCLE_DELAY</Str>
+					<Int sr="arg2" val="3"/>
+					<Str sr="arg3" ve="3">1</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item13">
+				<label>Acquire Delay</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Acquire Delay (Seconds)</Str>
+					<Str sr="arg1" ve="3">%INGRESS_ACQUIRE_DELAY</Str>
+					<Int sr="arg2" val="3"/>
+					<Str sr="arg3" ve="3">0</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item14">
+				<label>Drop Delay</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Drop Delay (Seconds)</Str>
+					<Str sr="arg1" ve="3">%INGRESS_DROP_DELAY</Str>
+					<Int sr="arg2" val="3"/>
+					<Str sr="arg3" ve="3">0.1</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Item X</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Item X</Str>
+					<Str sr="arg1" ve="3">%INGRESS_ITEM_X</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_ITEM_X</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>Item Y</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Item Y</Str>
+					<Str sr="arg1" ve="3">%INGRESS_ITEM_Y</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_ITEM_Y</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item4">
+				<label>Drop Button X</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Drop Button X</Str>
+					<Str sr="arg1" ve="3">%INGRESS_DROP_BUTTON_X</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_DROP_BUTTON_X</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item5">
+				<label>Drop Button Y</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Drop Button Y</Str>
+					<Str sr="arg1" ve="3">%INGRESS_DROP_BUTTON_Y</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_DROP_BUTTON_Y</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item6">
+				<label>Ground X</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Acquire Ground X</Str>
+					<Str sr="arg1" ve="3">%INGRESS_GROUND_X</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_GROUND_X</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item7">
+				<label>Ground Y</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Acquire Ground Y</Str>
+					<Str sr="arg1" ve="3">%INGRESS_GROUND_Y</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_GROUND_Y</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item8">
+				<label>Acquire X</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Acquire X</Str>
+					<Str sr="arg1" ve="3">%INGRESS_ACQUIRE_X</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_ACQUIRE_X</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item9">
+				<label>Acquire Y</label>
+				<Action sr="action" ve="3">
+					<code>595</code>
+					<Str sr="arg0" ve="3">Acquire Y</Str>
+					<Str sr="arg1" ve="3">%INGRESS_ACQUIRE_Y</Str>
+					<Int sr="arg2" val="4"/>
+					<Str sr="arg3" ve="3">%INGRESS_ACQUIRE_Y</Str>
+					<Str sr="arg4" ve="3"/>
+					<Str sr="arg5" ve="3">Variable Query</Str>
+					<Int sr="arg6" val="40"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+	</Task>
+	<Task sr="task34">
+		<cdate>1363978576169</cdate>
+		<edate>1373574016092</edate>
+		<id>34</id>
+		<nme>Ingress Notification</nme>
+		<Action sr="act0" ve="3">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Ingress Shortcuts</Str>
+			<Str sr="arg1" ve="3">Click to see some Ingress Tools and Scripts</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_device_access_storage</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1363978682933</cdate>
+		<edate>1364015759164</edate>
+		<id>35</id>
+		<nme>Remove Ingress Notification</nme>
+		<Action sr="act0" ve="3">
+			<code>779</code>
+			<Str sr="arg0" ve="3">Ingress Shortcuts</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
