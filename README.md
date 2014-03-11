@@ -4,7 +4,7 @@ Download the single project file from my GitHub to your phone.
 
 Open Tasker
 
-![Home Icon](https://github.com/redleader36/ingress-tasker-scripts/raw/screenshots/screenshots/tasker1.jpg =250x)
+![Home Icon](https://raw.github.com/redleader36/ingress-tasker-scripts/screenshots/screenshots/tasker1.jpg)
 Long press on the Home icon and select Import.
 
 ![Import File](https://github.com/redleader36/ingress-tasker-scripts/raw/screenshots/screenshots/tasker2.jpg =250x)
